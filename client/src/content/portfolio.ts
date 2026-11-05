@@ -74,13 +74,13 @@ export const portfolio = {
     },
     {
       title: "Back end",
-      prompt: "Add the server-side tools you know",
-      items: ["Add a technology", "Add a technology", "Add a technology"],
+      prompt: "Server-side JavaScript with Node.js",
+      items: ["JavaScript", "Node.js"],
     },
     {
       title: "Tools & workflow",
-      prompt: "Add the tools that support your process",
-      items: ["Add a tool", "Add a tool", "Add a tool"],
+      prompt: "Code editor and version control",
+      items: ["Git", "VS Code"],
     },
   ],
   process: [
