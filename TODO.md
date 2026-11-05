@@ -2,7 +2,7 @@
 
 ## 1. Responsive portfolio navigation and presentation — complete
 - The portfolio is a modern, accessible, responsive single-page site for a web developer with two years of experience.
-- Use the specified warm off-white, charcoal, slate-gray, vivid blue, and white-card visual system with modern heading and body typography.
+- Use the requested dark charcoal/navy palette, readable light text, blue accents, dark cards, and modern heading and body typography.
 - Provide a simple sticky or top-page header with accessible navigation links to the main page sections.
 - Keep the layout responsive and keyboard-accessible, with semantic structure, visible focus states, sufficient contrast, subtle borders, and restrained motion.
 
@@ -21,3 +21,10 @@
 ## 5. Contact and footer — complete
 - Include a contact section with clearly marked placeholders for contact details and accessible ways to initiate an inquiry.
 - Include a footer with editable copyright text, optional navigation, and placeholder social links.
+
+## 6. Dark theme and personal name — complete
+- Use the dark mode visual style throughout the portfolio while preserving responsive layout and accessible contrast.
+- Set the developer’s name to Anosike Daniel Chibuikem in the header and portfolio introduction.
+
+## 7. Custom 3D monogram — in progress
+- Create a custom 3D-style AD logo and display it beside the developer’s name in the header. The generated image is being rendered asynchronously and is already referenced in the header and footer.

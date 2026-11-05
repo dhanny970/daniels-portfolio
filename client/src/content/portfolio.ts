@@ -9,10 +9,10 @@ export type Project = {
 };
 
 export const portfolio = {
-  name: "[Your name]",
+  name: "Anosike Daniel Chibuikem",
   heroTitle: "Websites, made with purpose.",
   introduction:
-    "I’m [Your name], a website developer with 2 years of experience. [Add a line about the kinds of sites you build and who you build them for.]",
+    "I’m Anosike Daniel Chibuikem, a website developer with 2 years of experience. [Add a line about the kinds of sites you build and who you build them for.]",
   about:
     "I’m a website developer with two years of experience. Use this space to share what you enjoy building, how you like to work, and the kind of projects you’re looking for next.",
   email: "your.email@example.com",

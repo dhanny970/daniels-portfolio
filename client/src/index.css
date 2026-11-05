@@ -17,23 +17,23 @@
 
 :root {
   font-family: "Inter", "DM Sans", sans-serif;
-  color: #202124;
-  background: #f8f7f4;
+  color: #f3f5f9;
+  background: #10131a;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --background: #f8f7f4;
-  --foreground: #202124;
-  --card: #ffffff;
-  --card-foreground: #202124;
-  --primary: #3867f5;
-  --primary-foreground: #ffffff;
-  --muted: #667085;
-  --border: #e7e7e3;
-  --ring: #3867f5;
-  --accent: #3867f5;
+  --background: #10131a;
+  --foreground: #f3f5f9;
+  --card: #191e28;
+  --card-foreground: #f3f5f9;
+  --primary: #7694ff;
+  --primary-foreground: #10131a;
+  --muted: #a1a8b8;
+  --border: #2a3140;
+  --ring: #7694ff;
+  --accent: #7694ff;
   --radius: 0.75rem;
 }
 
@@ -67,7 +67,7 @@ a[href] {
 
 button:focus-visible,
 a:focus-visible {
-  outline: 3px solid rgba(56, 103, 245, 0.72);
+  outline: 3px solid rgba(118, 148, 255, 0.82);
   outline-offset: 4px;
 }
 

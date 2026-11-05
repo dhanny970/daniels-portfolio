@@ -46,7 +46,7 @@ export default function Home() {
       <header className="site-header">
         <div className="site-header__inner page-shell">
           <a className="brand" href="#top" aria-label={`${portfolio.name}, home`} onClick={closeMobileMenu}>
-            <span className="brand-mark" aria-hidden="true"><i /><i /><i /></span>
+            <img className="brand-logo" src="/manus-storage/async-images/O95JqMrFxn1SUP3qaEzGtb/image-1.webp" alt="" aria-hidden="true" />
             <span className="brand-name">{portfolio.name}<b>.</b></span>
           </a>
 
@@ -244,7 +244,7 @@ export default function Home() {
       <footer className="site-footer">
         <div className="site-footer__inner page-shell">
           <a className="brand brand--footer" href="#top" aria-label="Back to top">
-            <span className="brand-mark" aria-hidden="true"><i /><i /><i /></span>
+            <img className="brand-logo" src="/manus-storage/async-images/O95JqMrFxn1SUP3qaEzGtb/image-1.webp" alt="" aria-hidden="true" />
             <span className="brand-name">{portfolio.name}<b>.</b></span>
           </a>
           <p className="footer-copyright">© {new Date().getFullYear()} {portfolio.name}. Replace with your preferred copyright details.</p>
