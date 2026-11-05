@@ -46,6 +46,8 @@ export const portfolio = {
         "An admin dashboard with summary cards and a transactions table, designed to make daily payment data easy to scan.",
       technologies: [],
       visual: "mobile",
+      image: "/manus-storage/finance-dashboard_e80ce306.png",
+      imageAlt: "Finance dashboard screenshot with payment summary cards and a transaction table",
       liveUrl: "",
       sourceUrl: "",
     },
