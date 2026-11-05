@@ -187,7 +187,7 @@ export default function Home() {
                 <SectionLabel number="04">HOW I WORK</SectionLabel>
                 <h2 id="process-title">From first thought <em>to final polish.</em></h2>
               </div>
-              <p className="section-heading__aside">A simple process is easier to trust. Edit these stages to reflect how you work.</p>
+              <p className="section-heading__aside">A clear process turns a well-understood brief into a polished, responsive website.</p>
             </div>
             <div className="process-grid">
               {portfolio.process.map((step, index) => {
@@ -214,7 +214,6 @@ export default function Home() {
               <a className="contact-email" href={`mailto:${portfolio.email}?subject=Hello%20from%20your%20portfolio`}>
                 {portfolio.email} <ArrowUpRight aria-hidden="true" size={18} />
               </a>
-              <span className="contact-hint">Replace this placeholder with your real email address before sharing.</span>
             </div>
             <div className="contact-panel__side-note" aria-hidden="true">LET’S MAKE<br />SOMETHING<br />MEANINGFUL</div>
           </div>

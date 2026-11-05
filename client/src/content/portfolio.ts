@@ -87,22 +87,22 @@ export const portfolio = {
     {
       number: "01",
       title: "Understand",
-      note: "Add a note about how you clarify a brief and its goals.",
+      note: "I clarify the goals, audience, and requirements first, so the work solves the right problem.",
     },
     {
       number: "02",
       title: "Shape",
-      note: "Add a note about how you plan the structure and experience.",
+      note: "I plan the page structure and key interactions to make the experience easy to follow on any screen.",
     },
     {
       number: "03",
       title: "Build",
-      note: "Add a note about how you develop and collaborate.",
+      note: "I build responsive, accessible interfaces with clean front-end code and careful attention to detail.",
     },
     {
       number: "04",
       title: "Refine",
-      note: "Add a note about how you test, polish, and hand off your work.",
+      note: "I review the result across screen sizes, fix rough edges, and polish the final experience.",
     },
   ],
   socials: [
