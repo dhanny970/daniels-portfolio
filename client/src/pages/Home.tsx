@@ -208,9 +208,9 @@ export default function Home() {
           <div className="contact-panel">
             <div className="contact-panel__decoration" aria-hidden="true"><span /><span /><span /></div>
             <div className="contact-panel__content">
-              <SectionLabel number="05">GET IN TOUCH</SectionLabel>
-              <h2 id="contact-title">Have a good one<br />in <em>mind?</em></h2>
-              <p>Have a project, a question, or an opportunity to discuss? I’d be glad to hear from you.</p>
+              <SectionLabel number="05">LET’S TALK</SectionLabel>
+              <h2 id="contact-title">Let’s<br /><em>talk.</em></h2>
+              <p>Have a project, a question, or a full-time opportunity to discuss? I’m open to freelance and full-time roles and would be glad to hear from you.</p>
               <a className="contact-email" href={`mailto:${portfolio.email}?subject=Hello%20from%20your%20portfolio`}>
                 {portfolio.email} <ArrowUpRight aria-hidden="true" size={18} />
               </a>
