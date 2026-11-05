@@ -12,38 +12,48 @@ export const portfolio = {
   name: "Anosike Daniel Chibuikem",
   heroTitle: "Websites, made with purpose.",
   introduction:
-    "I’m Anosike Daniel Chibuikem, a website developer with 2 years of experience. [Add a line about the kinds of sites you build and who you build them for.]",
+    "I’m Anosike Daniel Chibuikem, a front-end developer with two years of experience building fast, accessible, and responsive websites.",
   about:
-    "I’m a website developer with two years of experience. Use this space to share what you enjoy building, how you like to work, and the kind of projects you’re looking for next.",
-  email: "your.email@example.com",
+    "Hi, I’m Anosike. I’m a front-end developer who cares about the small details. I focus on fast page loads, smooth transitions, and stable layouts—from design systems used by hundreds of engineers to weekend prototypes, I bring the same standard to every build. I’m open to freelance and full-time roles.",
+  email: "anosikedaniel186@gmail.com",
   projects: [
     {
       number: "01",
-      title: "Project name goes here",
+      title: "Movie Hub",
       description:
-        "Replace this with a sentence about the challenge, your contribution, and the result.",
-      technologies: ["Add a technology", "Add a technology"],
+        "A low-cost paid movie site that cut expenses by 70% and introduced a browsable library of genres.",
+      technologies: [],
       visual: "dashboard",
       liveUrl: "",
       sourceUrl: "",
     },
     {
       number: "02",
-      title: "Project name goes here",
+      title: "Movie Hub — Dark Edition",
       description:
-        "Describe what you made, who it helped, and the part you were responsible for.",
-      technologies: ["Add a technology", "Add a technology"],
+        "A dark-theme second pass on Movie Hub, featuring a full-bleed movie poster.",
+      technologies: [],
       visual: "editorial",
       liveUrl: "",
       sourceUrl: "",
     },
     {
       number: "03",
-      title: "Project name goes here",
+      title: "Finance Dashboard",
       description:
-        "Add a concise project summary. Keep the focus on the problem and your impact.",
-      technologies: ["Add a technology", "Add a technology"],
+        "An admin dashboard with summary cards and a transactions table, designed to make daily payment data easy to scan.",
+      technologies: [],
       visual: "mobile",
+      liveUrl: "",
+      sourceUrl: "",
+    },
+    {
+      number: "04",
+      title: "Coffee Shop Landing Page",
+      description:
+        "A warm, product-led coffee brand landing page with bold hero copy, two calls to action, and a full-color product shot.",
+      technologies: [],
+      visual: "editorial",
       liveUrl: "",
       sourceUrl: "",
     },
@@ -51,8 +61,8 @@ export const portfolio = {
   skillGroups: [
     {
       title: "Front end",
-      prompt: "Add the languages and frameworks you use",
-      items: ["Add a technology", "Add a technology", "Add a technology"],
+      prompt: "Core front-end technologies",
+      items: ["HTML", "CSS", "JavaScript"],
     },
     {
       title: "Back end",
@@ -93,7 +103,7 @@ export const portfolio = {
     { label: "A kind word", prompt: "Add a real client or teammate quote" },
   ],
   socials: [
-    { label: "GitHub", url: "" },
+    { label: "WhatsApp", url: "https://wa.me/2347037307507" },
     { label: "LinkedIn", url: "" },
   ],
 };
