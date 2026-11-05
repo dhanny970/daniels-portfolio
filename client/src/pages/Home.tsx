@@ -204,31 +204,11 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section proof-section page-shell" aria-labelledby="proof-title">
-          <div className="section-heading section-heading--split">
-            <div>
-              <SectionLabel number="05">A LITTLE PROOF</SectionLabel>
-              <h2 id="proof-title">Show, don’t <em>just tell.</em></h2>
-            </div>
-            <p className="section-heading__aside">Optional: keep this section only if you have genuine results or feedback to share.</p>
-          </div>
-          <div className="proof-grid">
-            {portfolio.credibility.map((item) => (
-              <article className="proof-card" key={item.label}>
-                <span className="proof-card__mark" aria-hidden="true">+</span>
-                <span className="proof-card__label">{item.label}</span>
-                <p>{item.prompt}</p>
-                <span className="proof-card__note">Replace with real information or remove this card.</span>
-              </article>
-            ))}
-          </div>
-        </section>
-
         <section className="contact-section page-shell" id="contact" aria-labelledby="contact-title">
           <div className="contact-panel">
             <div className="contact-panel__decoration" aria-hidden="true"><span /><span /><span /></div>
             <div className="contact-panel__content">
-              <SectionLabel number="06">GET IN TOUCH</SectionLabel>
+              <SectionLabel number="05">GET IN TOUCH</SectionLabel>
               <h2 id="contact-title">Have a good one<br />in <em>mind?</em></h2>
               <p>Have a project, a question, or an opportunity to discuss? I’d be glad to hear from you.</p>
               <a className="contact-email" href={`mailto:${portfolio.email}?subject=Hello%20from%20your%20portfolio`}>

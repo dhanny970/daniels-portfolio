@@ -105,11 +105,6 @@ export const portfolio = {
       note: "Add a note about how you test, polish, and hand off your work.",
     },
   ],
-  credibility: [
-    { label: "A result", prompt: "Add a real, measurable outcome" },
-    { label: "Recognition", prompt: "Add a certification or award" },
-    { label: "A kind word", prompt: "Add a real client or teammate quote" },
-  ],
   socials: [
     { label: "WhatsApp", url: "https://wa.me/2347037307507" },
     { label: "LinkedIn", url: "" },

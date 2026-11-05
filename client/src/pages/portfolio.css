@@ -1198,60 +1198,6 @@
   line-height: 1.8;
 }
 
-.proof-section {
-  padding-block: 106px 114px;
-}
-
-.proof-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 15px;
-}
-
-.proof-card {
-  min-height: 165px;
-  padding: 19px 20px;
-  border: 1px dashed #d5d9e3;
-  border-radius: 9px;
-  background: rgba(255, 255, 255, 0.48);
-}
-
-.proof-card__mark {
-  display: grid;
-  width: 27px;
-  height: 27px;
-  place-items: center;
-  border-radius: 7px;
-  background: var(--pale-blue);
-  color: var(--blue);
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.proof-card__label {
-  display: block;
-  margin-top: 14px;
-  font-family: var(--serif);
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: -0.03em;
-}
-
-.proof-card p {
-  margin: 5px 0 0;
-  color: var(--muted);
-  font-size: 11px;
-}
-
-.proof-card__note {
-  display: block;
-  margin-top: 12px;
-  color: #969aa4;
-  font-family: var(--mono);
-  font-size: 8px;
-  line-height: 1.6;
-}
-
 .contact-section {
   padding-block: 0 104px;
 }
@@ -1507,10 +1453,6 @@
   .process-grid::before { display: none; }
   .process-step { padding-right: 12px; }
   .process-step h3 { margin-top: 14px; }
-  .proof-section { padding-block: 78px; }
-  .proof-grid { grid-template-columns: 1fr; gap: 10px; }
-  .proof-card { min-height: 0; padding: 16px; }
-  .proof-card__note { margin-top: 8px; }
   .contact-section { padding-bottom: 72px; }
   .contact-panel { min-height: 365px; padding: 38px 25px; }
   .contact-panel h2 { font-size: clamp(44px, 11vw, 58px); }
@@ -1624,10 +1566,6 @@
 .process-step__top { border-color: #414e6e; background: #1b2230; color: #9bb0ff; }
 .process-step__top span { border-color: #1b2230; background: #7694ff; color: #10131a; }
 .process-step > p { color: #a1a8b8; }
-.proof-card { border-color: #465064; background: rgba(25, 30, 40, 0.5); }
-.proof-card__mark { background: #242d46; color: #9bb0ff; }
-.proof-card p { color: #a1a8b8; }
-.proof-card__note { color: #9da6b6; }
 .contact-panel { background: #1d3b91; }
 .contact-panel__content > p { color: rgba(255,255,255,0.82); }
 .contact-hint { color: rgba(255,255,255,0.72); }
