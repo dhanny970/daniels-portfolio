@@ -21,10 +21,14 @@ export default function ProjectCard({ project }: { project: Project }) {
   return (
     <article className="project-card">
       <div
-        className={`project-preview project-preview--${project.visual}`}
+        className={`project-preview project-preview--${project.visual}${project.image ? " project-preview--has-image" : ""}`}
         role="img"
-        aria-label={`Screenshot placeholder for ${project.title}`}
+        aria-label={project.imageAlt || `Screenshot placeholder for ${project.title}`}
       >
+        {project.image ? (
+          <img className="project-preview__image" src={project.image} alt="" loading="lazy" />
+        ) : (
+          <>
         <div className="preview-window" aria-hidden="true">
           <div className="preview-toolbar">
             <span />
@@ -71,6 +75,8 @@ export default function ProjectCard({ project }: { project: Project }) {
           </div>
         </div>
         <span className="preview-placeholder-label">Replace with project screenshot</span>
+          </>
+        )}
       </div>
 
       <div className="project-card__body">

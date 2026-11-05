@@ -4,6 +4,8 @@ export type Project = {
   description: string;
   technologies: string[];
   visual: "dashboard" | "editorial" | "mobile";
+  image?: string;
+  imageAlt?: string;
   liveUrl: string;
   sourceUrl: string;
 };
@@ -54,6 +56,8 @@ export const portfolio = {
         "A warm, product-led coffee brand landing page with bold hero copy, two calls to action, and a full-color product shot.",
       technologies: [],
       visual: "editorial",
+      image: "/manus-storage/coffee-landing_a5aca82e.png",
+      imageAlt: "Coffee landing page screenshot with coffee art, welcome copy, and order and contact buttons",
       liveUrl: "",
       sourceUrl: "",
     },

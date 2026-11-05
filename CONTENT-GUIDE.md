@@ -4,4 +4,4 @@ Your name, Anosike Daniel Chibuikem, is set in the header, introduction, and foo
 
 Project-specific technologies and live/source URLs were not stated in the source for each project, so those fields are left blank rather than guessed. Back-end and tool skills, LinkedIn, process details, and credibility content remain editable placeholders.
 
-No project images were copied from the HTML: it referenced image filenames, but the image files were not included. Add your project screenshots later; the existing site layout and placeholder previews remain unchanged.
+The Coffee Shop Landing Page card now uses the screenshot you supplied. Other project previews remain placeholders for images you may add later; the existing layout and styling have not been redesigned.
