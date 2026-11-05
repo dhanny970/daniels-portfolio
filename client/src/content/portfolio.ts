@@ -26,6 +26,8 @@ export const portfolio = {
         "A low-cost paid movie site that cut expenses by 70% and introduced a browsable library of genres.",
       technologies: [],
       visual: "dashboard",
+      image: "/manus-storage/movie-hub_37a60667.png",
+      imageAlt: "Movie Hub website screenshot with movie branding and an action movie hero image",
       liveUrl: "",
       sourceUrl: "",
     },
