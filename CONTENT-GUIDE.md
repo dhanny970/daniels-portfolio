@@ -4,4 +4,4 @@ Your name, Anosike Daniel Chibuikem, is set in the header, introduction, and foo
 
 Project-specific technologies and live/source URLs were not stated in the source for each project, so those fields are left blank rather than guessed. The selected back-end skills are JavaScript and Node.js, and the workflow tools are Git and VS Code. Section 04 has a general process write-up; LinkedIn remains a placeholder, and the optional credibility section has been removed.
 
-The Movie Hub, Coffee Shop Landing Page, and Finance Dashboard cards use the screenshots you supplied. Other project previews remain placeholders for images you may add later; the existing layout and styling have not been redesigned.
+The Movie Hub, Movie Hub — Dark Edition, Coffee Shop Landing Page, and Finance Dashboard cards use the screenshots you supplied. Other project previews remain placeholders for images you may add later; the existing layout and styling have not been redesigned.

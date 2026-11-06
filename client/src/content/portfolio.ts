@@ -38,6 +38,8 @@ export const portfolio = {
         "A dark-theme second pass on Movie Hub, featuring a full-bleed movie poster.",
       technologies: [],
       visual: "editorial",
+      image: "/manus-storage/movie-hub-dark-landing_e16170c8.png",
+      imageAlt: "Movie Hub dark landing page with an unlimited movies headline, email sign-up form, and movie collage background",
       liveUrl: "",
       sourceUrl: "",
     },
