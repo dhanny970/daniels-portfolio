@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   ArrowDown,
   ArrowRight,
@@ -38,6 +38,36 @@ export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const closeMobileMenu = () => setMobileMenuOpen(false);
+
+  useEffect(() => {
+    const elements = document.querySelectorAll<HTMLElement>(".scroll-reveal");
+
+    if (
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches ||
+      typeof IntersectionObserver === "undefined"
+    ) {
+      return;
+    }
+
+    document.documentElement.classList.add("scroll-reveal-enabled");
+    const observer = new IntersectionObserver(
+      (entries, activeObserver) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            activeObserver.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.14, rootMargin: "0px 0px -24px 0px" },
+    );
+
+    elements.forEach((element) => observer.observe(element));
+    return () => {
+      observer.disconnect();
+      document.documentElement.classList.remove("scroll-reveal-enabled");
+    };
+  }, []);
 
   return (
     <div className="portfolio-site">
@@ -127,7 +157,7 @@ export default function Home() {
           </div>
         </div>
 
-        <section className="section work-section page-shell" id="work" aria-labelledby="work-title">
+        <section className="section work-section page-shell scroll-reveal" id="work" aria-labelledby="work-title">
           <div className="section-heading section-heading--split">
             <div>
               <SectionLabel number="01">SELECTED WORK</SectionLabel>
@@ -141,7 +171,7 @@ export default function Home() {
         </section>
 
         <section className="about-section" id="about" aria-labelledby="about-title">
-          <div className="about-section__inner page-shell">
+          <div className="about-section__inner page-shell scroll-reveal">
             <div className="about-stamp" aria-hidden="true">
               <div className="about-stamp__rings"><span>{"{ }"}</span><i /></div>
               <span className="about-stamp__caption">CURIOUS BY DEFAULT</span>
@@ -158,7 +188,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section skills-section page-shell" id="skills" aria-labelledby="skills-title">
+        <section className="section skills-section page-shell scroll-reveal" id="skills" aria-labelledby="skills-title">
           <div className="section-heading section-heading--split">
             <div>
               <SectionLabel number="03">TOOLS OF THE TRADE</SectionLabel>
@@ -180,7 +210,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="process-section" aria-labelledby="process-title">
+        <section className="process-section scroll-reveal" aria-labelledby="process-title">
           <div className="page-shell">
             <div className="section-heading section-heading--split process-heading">
               <div>
@@ -204,7 +234,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="contact-section page-shell" id="contact" aria-labelledby="contact-title">
+        <section className="contact-section page-shell scroll-reveal" id="contact" aria-labelledby="contact-title">
           <div className="contact-panel">
             <div className="contact-panel__decoration" aria-hidden="true"><span /><span /><span /></div>
             <div className="contact-panel__content">

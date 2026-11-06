@@ -28,3 +28,7 @@
 
 ## 7. Custom 3D monogram — in progress
 - Create a custom 3D-style AD logo and display it beside the developer’s name in the header. The generated image is being rendered asynchronously and is already referenced in the header and footer.
+
+## 8. Scroll reveal — complete
+- Add a scroll-to-reveal effect on the site.
+- Preserve the existing portfolio design and ensure reduced-motion preferences are respected.
